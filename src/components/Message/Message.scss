@@ -1,0 +1,19 @@
+.messageWrapper {
+    padding: 0 30px;
+    border: 1px solid #ffffff;
+
+    p {
+        color: #ffffff;
+        font-size: 32px;
+    }
+
+    &.yellow {
+        padding: 0 30px;
+        border: 1px solid #ffff00;
+
+        p {
+            color: #ffff00;
+            font-size: 32px;
+        }
+    }
+}
