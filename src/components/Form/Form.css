@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form .message {
+    margin: 10px 0;
+    border: none;
+    height: 20px;
+    border-radius: 5px;
+}
+
+form .message:focus {
+    outline: 1px solid #ccc;
+    border: none;
+    -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+form .submit {
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+form .submit:hover {
+    background: #ffffff;
+    cursor: pointer;
+}
