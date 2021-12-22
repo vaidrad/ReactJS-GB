@@ -2,6 +2,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 form .message {
@@ -11,9 +12,24 @@ form .message {
     border-radius: 5px;
 }
 
+form button.MuiButton-root{
+    margin-top: 10px;
+}
+
+form.error fieldset.MuiOutlinedInput-notchedOutline,
+form.error .Mui-focused fieldset.MuiOutlinedInput-notchedOutline {
+    border: 2px solid red;
+}
+form.error .MuiOutlinedInput-root:hover fieldset.MuiOutlinedInput-notchedOutline{
+    border: 2px solid #a00;
+}
+
+form.error label#outlined-basic-label{
+    color: #c00;
+}
+
 form .message:focus {
     outline: 1px solid #ccc;
-    border: none;
     -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
     box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
